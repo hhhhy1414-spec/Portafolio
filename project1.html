@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Gestión de Tareas - Detalle</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>App de Gestión de Tareas</h1>
+            <nav><a href="index.html">← Volver al portafolio</a></nav>
+        </div>
+    </header>
+    <section class="section">
+        <div class="container project-detail">
+            <h2>Resumen</h2>
+            <p>Aplicación Android para gestionar tareas, con sincronización en la nube, notificaciones y soporte offline.</p>
+
+            <h3>Propósito</h3>
+            <p>Facilitar la organización personal y profesional con recordatorios inteligentes y sincronización entre dispositivos.</p>
+
+            <h3>Explicación técnica</h3>
+            <ul>
+                <li><strong>Arquitectura:</strong> MVVM con capas limpias.</li>
+                <li><strong>Lenguaje:</strong> Kotlin.</li>
+                <li><strong>Persistencia local:</strong> Room para base de datos local y caching.</li>
+                <li><strong>Sincronización:</strong> Firebase Realtime Database / Firestore para sincronización y autenticación.</li>
+                <li><strong>Notificaciones:</strong> WorkManager + Notification Channels para recordatorios programados.</li>
+                <li><strong>Pruebas:</strong> Unit tests con JUnit y pruebas de UI con Espresso.</li>
+            </ul>
+
+            <h3>Galería</h3>
+            <div class="project-gallery">
+                <img src="assets/images/app1.svg" alt="Pantalla 1">
+                <img src="assets/images/app1.svg" alt="Pantalla 2">
+                <img src="assets/images/app1.svg" alt="Pantalla 3">
+            </div>
+
+            <h3>Repositorio</h3>
+            <p><a href="https://github.com/juanperez/app-gestion-tareas" target="_blank">Ver en GitHub</a></p>
+        </div>
+    </section>
+    <footer>
+        <div class="container"><p>&copy; 2026 Juan Pérez</p></div>
+    </footer>
+</body>
+</html>
